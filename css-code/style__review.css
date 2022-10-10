@@ -1,14 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
-.bangchon {
+.selecter-child {
   width: max-content;
 }
 
 .tittle__film h3 span {
-  border-bottom: 2px solid #f26b38;
+  border-bottom: 2px solid rgb(219, 112, 147);
 }
 
 .tittle__film{
@@ -16,7 +19,7 @@
 }
 
 .movieofmonth .item-thumb a img {
-  width: 280px;
+  width: 100%;
   height: auto;
   display: block;
 }
@@ -50,7 +53,7 @@
 }
 
 .suggestion-all h3 span {
-  border-bottom: 2px solid #f26b38;
+  border-bottom: 2px solid rgb(219, 112, 147);
 }
 
 .suggestion {
@@ -122,8 +125,8 @@
 }
 
 .xemthem:hover{
-    border: 2px solid black;
-  background-color: black;
+    border: none;
+  background-color: rgb(219, 112, 147);
 }
 
 .xemthem:hover a
@@ -158,4 +161,11 @@
 }
 .next-page-bar a:hover:not(.active) {
   background-color: #ddd;
+}
+
+
+@media screen and (max-width: 360px){
+  .noidung a{
+    font-size: 0.65em;
+  }
 }
